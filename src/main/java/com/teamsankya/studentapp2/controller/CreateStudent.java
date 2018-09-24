@@ -25,6 +25,12 @@ public class CreateStudent extends HttpServlet{
 		info.setRegno(Integer.parseInt(req.getParameter("regno")));
 
 
+		
+		
+		
+		
+		
+		
 		StudentAddressInfoBean addr = new StudentAddressInfoBean();
 		addr.setRegno(Integer.parseInt(req.getParameter("regno")));
 		addr.setAddr1(req.getParameter("address1"));
